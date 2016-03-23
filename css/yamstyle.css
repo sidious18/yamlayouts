@@ -12,7 +12,7 @@ a:active, a:focus, a:visited{
 }
 .main-header{
 	width: 100%;
-	background: #302109;
+	background: #425f12;
 	border-top: 5px solid #94c347;
 	border-bottom: 4px solid #222222;
 	background-image: url(../img/header-background.png);
@@ -147,20 +147,22 @@ a:active, a:focus, a:visited{
 	width: 100%;
 }
 #potato-carousel .carousel-caption{
-	top:25%;
-	right: 15%;
-	left: 15%;
+	top:15%;
+	right: 5%;
+	left: 5%;
 }
 #potato-carousel .carousel-caption h3{
-	font-size: 40px;
+	font-size: 35px;
 	margin: 5px;
+	text-transform: uppercase;
 }
 #potato-carousel .carousel-caption h2{
 	font-size: 50px;
 	margin: 5px;
+	text-transform: uppercase;	
 }
 #potato-carousel .carousel-caption p{
-	width: 50%;
+	width: 70%;
 	margin: auto;
 }
 .potato-carousel-link{
@@ -200,7 +202,7 @@ a:active, a:focus, a:visited{
 }
 .about-us-title{
 	color:#3a3a3b;
-	margin: 40px 0px 55px 0px;	
+	margin: 0px 0px 55px 0px;	
 }
 .about-us-title span{
 	border-bottom: 1px solid #94c347;
@@ -493,6 +495,7 @@ a:active, a:focus, a:visited{
 	display: inline-block;
 	width: 33%;
 	margin-right: 2%;
+	vertical-align: top;
 }
 .footer-logo img{
 	width: 100%
@@ -875,6 +878,15 @@ a:active, a:focus, a:visited{
 .staff-caption strong{
 	font-style: italic;
 }
+.tastes-fresh-block{
+	padding:30px 15px;
+	border:1px solid #94c347;
+	margin:6% auto 10%;
+}
+.green-square{
+	max-width: 100%;
+	display:block;
+}
 @media all and (max-width: 1200px) {
 	.header-navbar-menu a{
 		padding: 8px !important;
@@ -905,7 +917,7 @@ a:active, a:focus, a:visited{
 	}
 	.about-us-title {
 	    color: #3a3a3b;
-	    margin: 20px 0px 35px 0px;
+	    margin: 0px 0px 35px 0px;
 	    font-size: 20px;
 	}
 	.about-us-description{
@@ -1780,5 +1792,12 @@ a:active, a:focus, a:visited{
 	.staff-photo img{
 		width:90%;
 		height:auto;
+	}
+	.green-square{
+		margin:10px auto;	
+	}
+	.tastes-fresh-block{
+		padding:auto;
+		border:none;
 	}
 }
